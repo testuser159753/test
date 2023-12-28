@@ -23,3 +23,32 @@ $ git commit -m "gunlist eklendi"
 
 
 su anda gunlist içeriği guncellendi.
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature2)
+$ git add .
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature2)
+$ git commit -m "gunlist guncellendi"
+[feature2 65523e4] gunlist guncellendi
+ 1 file changed, 24 insertions(+)
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature2)
+$ git status
+On branch feature2
+nothing to commit, working tree clean
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature2)
+$ git log
+commit 65523e46bd6cf7d8d69a21f1a3f57d92579b36c7 (HEAD -> feature2)
+Author: Usame Yilmaz <usame.kasibeyaz@gmail.com>
+Date:   Thu Dec 28 18:20:04 2023 +0300
+
+    gunlist guncellendi
+
+commit 973902fe9a88c0cb86564d66960e629c812d936f
+Author: Usame Yilmaz <usame.kasibeyaz@gmail.com>
+Date:   Thu Dec 28 18:19:20 2023 +0300
+
+    gunlist eklendi
+
+

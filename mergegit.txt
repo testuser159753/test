@@ -1,0 +1,5 @@
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master) //guncel branchleri göstericektir.
+$ git branch
+* master
+

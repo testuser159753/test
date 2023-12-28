@@ -5,3 +5,6 @@ değişiklilk yapılması durumudur.
 
 feature branch acılıp yeni bir klasör olusturulmustu daha sonrasında 
 tekrardan su anda master branche geçtik ve tekrardan commit atılacaktır.
+
+simdi bu durumda sora ikinci kez proje de buraya değişiklik yani masterda değişiklijk yapılıyor. 
+tekrardan bunu ekleyip commit edilecektir.

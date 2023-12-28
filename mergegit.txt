@@ -78,8 +78,41 @@ klasor içeirisde artık gorunmemektedir.******
 
 
 
+**feature branch acılıp yeni bir klasör olusturulmustu daha sonrasında 
+tekrardan su anda master branche geçtik ve tekrardan commit atılacaktır.
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git add .
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git commit -m "master branche tekrardan gecildi firstdocumente değisiklik yapıldı ve commit atılıyor."
+[master 54bdbdb] master branche tekrardan gecildi firstdocumente değisiklik yapıldı ve commit atılıyor.
+ 2 files changed, 96 insertions(+), 1 deletion(-)
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git log
+commit 54bdbdb65031e40de3acd0729520d7f6ce28b592 (HEAD -> master)
+Author: Usame Yilmaz <usame.kasibeyaz@gmail.com>
+Date:   Thu Dec 28 17:02:32 2023 +0300
+
+    master branche tekrardan gecildi firstdocumente değisiklik yapıldı ve commit atılıyor.
+
+commit 57749ddaa66312399e7e09e0f7d568a2b3417a29
+Author: Usame Yilmaz <usame.kasibeyaz@gmail.com>
+Date:   Thu Dec 28 16:49:52 2023 +0300
+
+    master branchde ikinci ilerleme yapıldı dosya içeriği değiştirildi ve bir dosya daha eklenmiştir.
+
+commit 5903367a2ae4d0c6d5c1ec9c9ae660139d26e79a
+Author: Usame Yilmaz <usame.kasibeyaz@gmail.com>
+Date:   Thu Dec 28 16:47:49 2023 +0300
+
+    dosya olusturuldu içeriği yazıldı eklendi ve commit ediliyor
 
 
+
+simdi bu durumda sora ikinci kez proje de buraya değişiklik yani masterda değişiklijk yapılıyor. 
+tekrardan bunu ekleyip commit edilecektir.
 
 
 

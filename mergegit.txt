@@ -3,3 +3,42 @@ user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master) //guncel branchleri g
 $ git branch
 * master
 
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git branch feature
+yeni bir branch olusturuldu.
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git branch
+  feature
+* master
+
+burada da contol ettik evet olusturuldu. hala daha masterdayız ynında yıldız var.
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git switch feature
+Switched to branch 'feature'
+M       mergegit.txt
+
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature)
+$ git branch
+* feature
+
+git switch geçisyapılacakbranch_adı bu sayada diğer branch e geçtiğimiz de yukarıda görulmustur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

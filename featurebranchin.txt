@@ -1,1 +1,3 @@
 feature branch sonrasında olusturuldu. future branche ait olması gerekir.
+
+feature branche 2. kez commit edilmektedir.

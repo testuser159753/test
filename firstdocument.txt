@@ -1,3 +1,7 @@
 belgenin ilk halidir.
 
 değişiklilk yapılması durumudur.
+
+
+feature branch acılıp yeni bir klasör olusturulmustu daha sonrasında 
+tekrardan su anda master branche geçtik ve tekrardan commit atılacaktır.

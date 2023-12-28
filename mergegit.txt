@@ -3,3 +3,94 @@ user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master) //guncel branchleri g
 $ git branch
 * master
 
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git branch feature
+yeni bir branch olusturuldu.
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git branch
+  feature
+* master
+
+burada da contol ettik evet olusturuldu. hala daha masterdayız ynında yıldız var.
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (master)
+$ git switch feature
+Switched to branch 'feature'
+M       mergegit.txt
+
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature)
+$ git branch
+* feature
+
+git switch geçisyapılacakbranch_adı bu sayada diğer branch e geçtiğimiz de yukarıda görulmustur.
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature)
+$ touch featurebranchin.txt
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature)
+$ git add .
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature)
+$ git commit -m "feature branch ile dosya olusturuldu içeriği yazıldı ve ilk commit yapılıyor."
+[feature a8c9fcd] feature branch ile dosya olusturuldu içeriği yazıldı ve ilk commit yapılıyor.
+ 2 files changed, 40 insertions(+)
+ create mode 100644 featurebranchin.txt
+
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature)
+$ git log
+commit a8c9fcd49dbbb6560f54b6015d0a5e9079dc2b15 (HEAD -> feature)
+Author: Usame Yilmaz <usame.kasibeyaz@gmail.com>
+Date:   Thu Dec 28 16:55:39 2023 +0300
+
+    feature branch ile dosya olusturuldu içeriği yazıldı ve ilk commit yapılıyor.
+
+commit 57749ddaa66312399e7e09e0f7d568a2b3417a29 (master)
+Author: Usame Yilmaz <usame.kasibeyaz@gmail.com>
+Date:   Thu Dec 28 16:49:52 2023 +0300
+
+    master branchde ikinci ilerleme yapıldı dosya içeriği değiştirildi ve bir dosya daha eklenmiştir.
+
+commit 5903367a2ae4d0c6d5c1ec9c9ae660139d26e79a
+Author: Usame Yilmaz <usame.kasibeyaz@gmail.com>
+Date:   Thu Dec 28 16:47:49 2023 +0300
+
+    dosya olusturuldu içeriği yazıldı eklendi ve commit ediliyor
+
+
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature)
+$ git branch
+* feature
+  master
+
+user@DESKTOP-HC3JL8U MINGW64 ~/Desktop/gitProject (feature)
+$ git switch master
+Switched to branch 'master'
+
+
+******mfeature branchden master branche geçtiğimiz zaman feature branch de ilerlediğimiz 
+olusturudugumuz dosya olan featurebranchin.txt dosyası su anda içeriisnde bulundugumuz
+klasor içeirisde artık gorunmemektedir.******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
